@@ -21,8 +21,8 @@ export default function RecentActivity() {
               </div>
               <span className='text-sm'>August 15. Donation</span>
               <span className='text-sm'>
-                "what is a worthy cause, i pledge to donate back after my
-                pay...""
+                &quot;what is a worthy cause, i pledge to donate back after my
+                pay...&quot;
               </span>
             </div>
           </div>
@@ -41,8 +41,8 @@ export default function RecentActivity() {
               </div>
               <span className='text-sm'>August 15. Donation</span>
               <span className='text-sm'>
-                "what is a worthy cause, i pledge to donate back after my
-                pay...""
+                &quot;what is a worthy cause, i pledge to donate back after my
+                pay...&quot;
               </span>
             </div>
           </div>
@@ -61,8 +61,8 @@ export default function RecentActivity() {
               </div>
               <span className='text-sm'>August 15. Donation</span>
               <span className='text-sm'>
-                "what is a worthy cause, i pledge to donate back after my
-                pay...""
+                &quot;what is a worthy cause, i pledge to donate back after my
+                pay...&quot;
               </span>
             </div>
           </div>
@@ -81,8 +81,8 @@ export default function RecentActivity() {
               </div>
               <span className='text-sm'>August 15. Donation</span>
               <span className='text-sm'>
-                "what is a worthy cause, i pledge to donate back after my
-                pay...""
+                &quot;what is a worthy cause, i pledge to donate back after my
+                pay...&quot;
               </span>
             </div>
           </div>
@@ -101,8 +101,8 @@ export default function RecentActivity() {
               </div>
               <span className='text-sm'>August 15. Donation</span>
               <span className='text-sm'>
-                "what is a worthy cause, i pledge to donate back after my
-                pay...""
+                &quot;hat is a worthy cause, i pledge to donate back after my
+                pay...&quot;
               </span>
             </div>
           </div>

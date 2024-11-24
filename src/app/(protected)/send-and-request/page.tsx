@@ -41,7 +41,7 @@ export default function SendAndRequest() {
               Conversion rate: 1 USD = 1.2611 SGD
             </div>
             <div className='text-xs text-gray-500 mt-1 text-center text-balance w-96'>
-              This rate includes a currency conversion spread. The amount you'll
+              This rate includes a currency conversion spread. The amount you&apos;ll
               pay may change as we lock in your rate, so check your final amount
               and fee details before you send.
             </div>

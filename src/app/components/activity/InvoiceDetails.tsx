@@ -156,7 +156,7 @@ export const InvoiceDetails = () => {
                 className='text-2xl font-bold text-blue-900'
               />
               <h2 className='text-4xl font-bold text-blue-900 pt-6'>
-                Here's your invoice
+                Here&apos;s your invoice
               </h2>
               <p className='text-gray-600'>
                 Sam Lee sent you an invoice for $21.00 USD
@@ -182,14 +182,14 @@ export const InvoiceDetails = () => {
 
             <div>
               <p className='font-semibold mb-2'>
-                Don't recognize this invoice?
+                Don&apos;t recognize this invoice?
               </p>
               <Button variant='link' className='text-blue-600 p-0'>
                 Report this invoice
               </Button>
               <p className='text-sm text-gray-500 mt-2'>
                 Before paying, make sure you recognize this invoice. If you
-                don't, report it. Learn more about common security threats and
+                don&apos;t, report it. Learn more about common security threats and
                 how to spot them.
               </p>
             </div>

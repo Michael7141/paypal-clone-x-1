@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { CreditCard, Plus } from 'lucide-react';
 import { VisaCard } from '@/lib/svg';
 import { Icon } from '@iconify/react/dist/iconify.js';
 
@@ -80,7 +79,7 @@ export default function WalletPage() {
                 Change
               </Button>
               <p className='text-sm text-center text-gray-600'>
-                We'll use this when you shop or send money for goods and
+                We&apos;ll use this when you shop or send money for goods and
                 services.
               </p>
               <Button

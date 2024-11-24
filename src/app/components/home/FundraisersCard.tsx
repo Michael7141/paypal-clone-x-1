@@ -1,8 +1,7 @@
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { Label } from '@/components/ui/label';
+import { Card } from '@/components/ui/card';
 import { Icon } from '@iconify/react/dist/iconify.js';
-import { Gift, MoreVertical } from 'lucide-react';
+import { MoreVertical } from 'lucide-react';
 import React from 'react';
 
 export default function FundraisersCard() {

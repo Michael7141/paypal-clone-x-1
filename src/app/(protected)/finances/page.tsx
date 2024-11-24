@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { ArrowLeft, RefreshCcw } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { Line, LineChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
 import { Icon } from '@iconify/react/dist/iconify.js';
 import { cn } from '@/lib/utils';
@@ -179,6 +179,3 @@ export default function CryptoPage() {
     </div>
   );
 }
-
-const timeFrames = ['24H', '1W', '1M', '6M', '1Y', 'ALL'];
-const quickBuyAmounts = ['$20', '$50', '$100', '$500'];
