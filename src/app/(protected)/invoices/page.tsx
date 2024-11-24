@@ -307,6 +307,10 @@ export default function InvoicingPage() {
     getPaginationRowModel: getPaginationRowModel(),
     getSortedRowModel: getSortedRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
+    onSortingChange: setSorting,
+    onColumnFiltersChange: setColumnFilters,
+    onColumnVisibilityChange: setColumnVisibility,
+    onRowSelectionChange: setRowSelection,
     initialState: {
       pagination: {
         pageSize: 10,
@@ -319,7 +323,6 @@ export default function InvoicingPage() {
       rowSelection,
     },
   });
-
   const TablePagination = () => (
     <div className='flex items-center justify-between px-2 py-4'>
       <div className='flex-1 text-sm text-muted-foreground'>
