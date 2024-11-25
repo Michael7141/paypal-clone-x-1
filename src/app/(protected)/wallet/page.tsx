@@ -6,17 +6,16 @@ import { Icon } from '@iconify/react/dist/iconify.js';
 
 export default function WalletPage() {
   return (
-    <div className='max-w-3xl mx-auto p-6 flex gap-8'>
+    <div className='max-w-3xl mx-auto p-6 lg:flex-row flex-col lg:items-start items-center flex gap-8'>
       <div className='flex flex-col gap-6'>
         <div className='flex items-center justify-center'>
-
-        <Button
-          variant='default'
-          className='w-40 bg-[#142c8e] hover:bg-blue-700 rounded-2xl'
-          size='sm'
-        >
-          Link a card or bank
-        </Button>
+          <Button
+            variant='default'
+            className='w-40 bg-[#142c8e] hover:bg-blue-700 rounded-2xl'
+            size='sm'
+          >
+            Link a card or bank
+          </Button>
         </div>
 
         <div className='space-y-6'>

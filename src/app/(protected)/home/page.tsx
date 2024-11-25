@@ -9,11 +9,10 @@ import QuickActions from '@/app/components/home/QuickActions';
 import RecentActivity from '@/app/components/home/RecentActivity';
 import SendAgain from '@/app/components/home/SendAgain';
 
-
 export default function Home() {
   return (
-    <div className='grid grid-cols-12 gap-6 '>
-      <div className='col-span-7 space-y-6 '>
+    <div className='grid grid-cols-1 p-6 md:p-0 gap-6 md:grid-cols-12'>
+      <div className='col-span-12 space-y-6 md:col-span-7'>
         <PayPalRewardsCard />
         <MoneyRequestCard />
         <FundraisersCard />
@@ -21,7 +20,8 @@ export default function Home() {
         <RecentActivity />
         <PopularCashBackDeals />
       </div>
-      <div className='col-span-5 space-y-6'>
+
+      <div className='col-span-12 space-y-6 md:col-span-5'>
         <QuickActions />
         <SendAgain />
         <BanksAndCards />
